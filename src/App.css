@@ -1,8 +1,18 @@
-#root {
-  max-width: 1280px;
+:root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  --primary-color: #0F528C;
+  --secondary-color: #06ADBF;
+  --secondary-color-2: #11D9D9;
+  --background-color: #E9F2F7;
+  --text-color: #0F528C;
+  --text-color-secondary: #04738C;
+  --text-color-light: #E9F2F7;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
 }
 
 .logo {
