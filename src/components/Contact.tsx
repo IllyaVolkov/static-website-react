@@ -15,11 +15,10 @@ const Contact = () => {
       >
         <div className="flex flex-col items-center gap-4 sm:gap-6 w-[90%] md:w-4/5 lg:w-1/2 text-center mx-auto">
           <h2 className="text-2xl sm:text-4xl font-semibold">
-            Contact us
+            Let’s talk change.
           </h2>
           <p className="leading-loose font-[500]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod
-            tempor incididunt labore dolore.
+            Contact us today for a non-committal conversation!
           </p>
           <div className="relative w-full">
             <input
@@ -31,9 +30,17 @@ const Contact = () => {
                 color: "var(--text-color)",
               }}
             />
+            <textarea
+              placeholder="Enter your message"
+              className="rounded-full px-3 py-4 mt-8 text-center sm:text-left sm:p-6 border-none outline-none w-full font-[500]"
+              style={{
+                background: "var(--background-color)",
+                color: "var(--text-color)",
+              }}
+            />
             <button
               onClick={() => setBtnText("Submitting...")}
-              className="sm:w-fit w-full mt-2 sm:mt-0 capitalize sm:absolute sm:top-2 md:top-[.4rem] sm:right-2 md:text-base text-sm font-semibold py-4 px-7 rounded-full"
+              className="sm:w-fit w-full mt-8 capitalize md:text-base text-sm font-semibold py-4 px-7 rounded-full"
               style={{
                 background: "var(--secondary-color)",
                 color: "var(--text-color-light)",

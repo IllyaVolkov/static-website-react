@@ -13,7 +13,7 @@ type CardProps = {
 const Card = ({ star, title, imgSrc }: CardProps) => {
   return (
     <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-[#4e4e4e31] p-10 rounded-lg hover:shadow-xl transition-all">
-      <div className="text-rose-600">
+      <div className="text-secondary">
         <StarRoundedIcon />
         <StarRoundedIcon />
         <StarRoundedIcon />
@@ -33,7 +33,7 @@ const Card = ({ star, title, imgSrc }: CardProps) => {
           <a
             href="https://github.com/NaseemKhan005"
             target="_blank"
-            className="text-rose-600 font-[500]"
+            className="text-secondary font-[500]"
           >
             @naseemkhan
           </a>

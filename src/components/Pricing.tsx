@@ -13,7 +13,7 @@ type PlanProps = {
 const Plan = ({ title }: PlanProps) => {
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-rose-600 text-xl" />
+      <CheckCircleIcon className="text-secondary text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -47,10 +47,10 @@ const PricingCard = ({ name, title, price, btnText, trail }: CardProps) => {
             /Monthly
           </span>
         </h2>
-        <button className="w-fit capitalize text-base hover:bg-rose-600 hover:shadow-md hover:shadow-rose-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-rose-600 hover:border-rose-600 hover:text-white rounded-full">
+        <button className="w-fit capitalize text-base hover:bg-secondary hover:shadow-md hover:shadow-secondary hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-secondary hover:border-secondary hover:text-white rounded-full">
           {btnText}
         </button>
-        <span className="block text-rose-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-secondary mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -74,21 +74,21 @@ const Pricing = () => {
         <div
           className={`${
             plan === "Monthly Plan" ? "left-2" : "left-[150px] w-[128px]"
-          } transition-all duration-500 absolute top-[.37rem] h-[55px] w-[138px] rounded-full bg-rose-600`}
+          } transition-all duration-500 absolute top-[.37rem] h-[55px] w-[138px] rounded-full bg-secondary`}
         ></div>
         <button
           onClick={() => setPlan("Monthly Plan")}
           className={`
-          ${plan === "Monthly Plan" ? "text-white" : "text-rose-600"}
-          z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5 hover:border-rose-600 rounded-full`}
+          ${plan === "Monthly Plan" ? "text-white" : "text-secondary"}
+          z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5 hover:border-secondary rounded-full`}
         >
           Monthly Plan
         </button>
         <button
           onClick={() => setPlan("Annual Plan")}
           className={`
-          ${plan === "Annual Plan" ? "text-white" : "text-rose-600"}
-          z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5 hover:border-rose-600 rounded-full`}
+          ${plan === "Annual Plan" ? "text-white" : "text-secondary"}
+          z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5 hover:border-secondary rounded-full`}
         >
           Annual Plan
         </button>
@@ -110,7 +110,7 @@ const Pricing = () => {
             trail="Or Start 14 Days trail"
           />
           <div className="relative">
-            <span className="absolute -top-1 left-10 bg-rose-600 text-white px-2 py-1 rounded-md">
+            <span className="absolute -top-1 left-10 bg-secondary text-white px-2 py-1 rounded-md">
               Suggested
             </span>
             <PricingCard
@@ -138,7 +138,7 @@ const Pricing = () => {
             trail="Or Start 10 Days trail"
           />
           <div className="relative">
-            <span className="absolute -top-1 left-10 bg-rose-600 text-white px-2 py-1 rounded-md">
+            <span className="absolute -top-1 left-10 bg-secondary text-white px-2 py-1 rounded-md">
               Suggested
             </span>
             <PricingCard

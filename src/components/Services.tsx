@@ -30,7 +30,7 @@ const Services = () => {
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
         <div className="relative w-full flex-1">
           <img
-            src={"/videobanner.png"}
+            src={"/goals.jpeg"}
             width={500}
             height={500}
             alt="video banner"
@@ -38,7 +38,7 @@ const Services = () => {
           />
           <button className="w-32 h-32 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <a href={"https://youtu.be/aVNa8Dka5MA"} target="_blank">
-              <span className="playButton duration-700 w-full h-full bg-rose-500 rounded-full block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+              <span className="playButton duration-700 w-full h-full bg-secondary rounded-full block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
               <PlayArrowIcon className="w-16 h-16 md:w-24 md:h-24 text-white bg-[#ffffffb8] rounded-full" />
             </a>
           </button>

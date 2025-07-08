@@ -15,6 +15,37 @@ body {
   color: var(--text-color);
 }
 
+.text-secondary {
+  color: var(--text-color-secondary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.border-secondary {
+  border-color: var(--secondary-color);
+}
+
+.hover\:border-secondary {
+  &:hover {
+      @media (hover: hover) {  
+        border-color: var(--secondary-color);
+      }
+  }
+}
+
+.shadow-secondary {
+  --tw-shadow-color: var(--secondary-color);
+}
+.hover\:shadow-secondary {
+    &:hover {
+        @media (hover: hover) {
+            --tw-shadow-color: var(--secondary-color);
+        }
+    }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -9,7 +9,7 @@ html {
 }
 
 .service-name {
-  @apply text-rose-600 uppercase block font-semibold text-sm tracking-widest;
+  @apply text-secondary uppercase block font-semibold text-sm tracking-widest;
 }
 
 .title {
@@ -20,17 +20,9 @@ html {
   transform: rotateX(180deg);
 }
 
-.team-card:hover :is(h2, p) {
-  color: #e11d48;
-}
-
 .team-card:hover .icons {
   transform: translateY(0);
   opacity: 1;
-}
-
-input::placeholder {
-  color: #e11d48;
 }
 
 @keyframes playPluse {
