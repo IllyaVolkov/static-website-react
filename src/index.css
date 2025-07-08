@@ -9,7 +9,7 @@ html {
 }
 
 .service-name {
-  @apply text-secondary uppercase block font-semibold text-sm tracking-widest;
+  @apply uppercase block font-semibold text-sm tracking-widest;
 }
 
 .title {
