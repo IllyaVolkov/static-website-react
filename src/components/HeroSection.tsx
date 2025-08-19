@@ -12,11 +12,9 @@ const HeroSection = () => {
         <p className="text-lg leading-normal sm:leading-loose my-4 md:my-6">
           We empower people to make the changes they want!
         </p>
-        <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-secondary hover:border-secondary hover:bg-transparent hover:text-secondary rounded-full">
-          <a target="_blank">
-            Explore
-          </a>
-        </button>
+        <a href="#features" className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-secondary hover:border-secondary hover:bg-transparent hover:text-secondary rounded-full">
+          Explore
+        </a>
       </div>
       <div className="w-full relative">
           <img

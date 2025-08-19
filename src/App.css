@@ -19,6 +19,10 @@ body {
   color: var(--text-color-secondary);
 }
 
+.text-secondary-2 {
+  color: var(--secondary-color-2);
+}
+
 .bg-secondary {
   background-color: var(--secondary-color);
 }

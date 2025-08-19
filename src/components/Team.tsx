@@ -169,6 +169,7 @@ const Team = () => {
           </TeamCard>
         ))}
       </div>
+      
     </section>
   );
 };

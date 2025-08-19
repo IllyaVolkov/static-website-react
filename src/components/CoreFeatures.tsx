@@ -11,9 +11,9 @@ const CoreFeatures = () => {
         <p className="text-lg leading-loose">
           Whatever behaviour you are trying to change,  <b className="text-secondary">IGNITE</b> will help you get there.
         </p>
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-secondary hover:border-secondary hover:bg-secondary hover:shadow-secondary hover:shadow-2xl rounded-full">
+        <a href="#features" className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-secondary hover:border-secondary hover:bg-secondary hover:shadow-secondary hover:shadow-2xl rounded-full">
           Explore
-        </button>
+        </a>
       </div>
 
       <div className="flex-1 relative w-full flex flex-col items-center">
