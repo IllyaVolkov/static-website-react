@@ -12,7 +12,7 @@ const SOCIAL_LINKS = [
     label: "Facebook",
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/company/ignite-motivation/about/?viewAsMember=true",
     icon: <LinkedInIcon />,
     label: "LinkedIn",
   },
