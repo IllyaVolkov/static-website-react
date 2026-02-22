@@ -3,14 +3,14 @@ import NorthRoundedIcon from "@mui/icons-material/NorthRounded";
 import { useEffect, useRef } from "react";
 
 const ScrollTop = () => {
-  const arrow = useRef();
+  const arrow = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset >= 200) {
-        arrow.current.classList.add("right-8");
+        arrow.current?.classList.add("right-8");
       } else {
-        arrow.current.classList.remove("right-8");
+        arrow.current?.classList.remove("right-8");
       }
     };
   }, []);
