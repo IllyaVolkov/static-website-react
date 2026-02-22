@@ -6,15 +6,11 @@ const HeroSection = () => {
     >
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
         <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
-          <p>You need change, </p>
-          <p>we know how!</p>
+          <p>Do you need to make changes?</p>
         </h1>
         <p className="text-lg leading-normal sm:leading-loose my-4 md:my-6">
           We empower people to make the changes they want!
         </p>
-        <a href="#features" className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-secondary hover:border-secondary hover:bg-transparent hover:text-secondary rounded-full">
-          Explore
-        </a>
       </div>
       <div className="w-full relative">
           <img
