@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID = "YOUR_SERVICE_ID";
-const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+const SERVICE_ID = "default_service";
+const TEMPLATE_ID = "template_xly5e46";
+const PUBLIC_KEY = "5bkBOKIjHn7XWGkDX";
 
 export const sendEmail = async (formData: Record<string, string>): Promise<{ ok: boolean }> => {
     try {
